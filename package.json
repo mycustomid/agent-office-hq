@@ -1,7 +1,7 @@
 {
   "name": "agent-office-hq",
-  "version": "1.0.0",
-  "description": "TepatLaser AI Swarm HQ — Pixel Virtual Office, Live SERP Telemetry & Cyberpunk Interrogation Console",
+  "version": "1.1.0",
+  "description": "AI PMO for contractor operations with durable AI execution governance and WhatsApp-connected delivery workflows",
   "main": "server.mjs",
   "type": "module",
   "engines": {
@@ -10,15 +10,19 @@
   "scripts": {
     "start": "node server.mjs",
     "dev": "node --watch server.mjs",
+    "pmo:start": "node pmo/server.mjs",
+    "pmo:dev": "node --watch pmo/server.mjs",
     "test": "node --test"
   },
   "keywords": [
-    "ai-swarm",
-    "pixel-office",
-    "serp-auditor",
-    "tepatlaser",
-    "cyberpunk"
+    "ai-pmo",
+    "project-management",
+    "wood-contractor",
+    "interior-contractor",
+    "whatsapp-gateway",
+    "ai-agents",
+    "durable-execution"
   ],
-  "author": "Ddos-spec <setgraph69@gmail.com>",
+  "author": "Ddos-spec",
   "license": "MIT"
 }
